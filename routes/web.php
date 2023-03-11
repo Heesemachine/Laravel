@@ -17,4 +17,4 @@ use App\Http\Controllers\CVController;
 Route::get('/', function () {
     return view('welcome');
 });
-Route::get('tsiptak/cv',[CVController::class,'index']);
+Route::get('tsiptak/cv',[CVController::class,'cv']);
